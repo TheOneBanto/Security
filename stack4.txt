@@ -1,0 +1,12 @@
+gdb commands 
+
+r < filename
+
+info registers
+
+
+define hook-stop
+info registers
+x/24x $rsp   #$esp on 32-bit systems
+x/2i  $rip    #$eip on 32-bit systems
+end

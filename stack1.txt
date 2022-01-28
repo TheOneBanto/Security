@@ -1,0 +1,2 @@
+the buffer overflows on the 64th 'd'
+modified contains the string values "dcba" which == 64636261 in ASCII
